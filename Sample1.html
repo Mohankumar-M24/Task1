@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0% 0%;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            height: 1000vh;
+            margin: 0;
+            padding: .5% 10%;
+            box-sizing: border-box;
+            background-color: #FEFCFB;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0% 7%;
+        }
+
+        .middle-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0% 0%;
+            margin: 0% 0%;
+        }
+
+        .final-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1% 1%;
+            margin: 0% 5%;
+        }
+
+        .trabook {
+            display: flex;
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #222222;
+            padding: 0% 0%;
+            margin: 0% 0%;
+
+        }
+
+        .mid-hed {
+            display: inline-block;
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            font-style: normal;
+            padding: 0% 7%;
+            width: 0% 0%;
+            color: #222222;
+            cursor: pointer;
+            font-size: 6;
+        }
+
+        .final-log {
+            padding: 0% 2%;
+            margin: 0% 15%;
+        }
+
+        .final-log {
+            font-family: "Poppins", serif;
+            font-weight: 600;
+            font-style: normal;
+            color: #FD8D3A;
+            cursor: pointer;
+            width: 0% 0%;
+            padding: 0% 15%;
+        }
+
+        .final-sign {
+            font-family: "Poppins", serif;
+            font-weight: 600;
+            font-style: normal;
+            background-color: #FA7436;
+            border: none;
+            color: white;
+            padding: 7px 17px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 6px 2px;
+            cursor: pointer;
+            border-radius: 3px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .parent1 {
+            display: flex;
+            /*   */
+        }
+
+        .content {
+            padding: 0% 0%;
+            margin: 5% 5%
+        }
+
+        .get-start {
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 3rem;
+        }
+
+        .a-team {
+            color: #666666;
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .disco-now {
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            font-style: normal;
+            color: #FA7436;
+            border-color: #FA7436;
+            padding: 1% 3%;
+            border-radius: 3px;
+            /* font-size: 25%; */
+            cursor: pointer;
+        }
+
+        .plane-top {
+            color: #CCCCCC;
+            ;
+            float: right;
+            height: 90px;
+            width: 20px;
+            margin-right: 115%;
+            margin-bottom: 10%;
+            position: relative;
+            left: -18%
+        }
+
+        .boy-ontop {
+            position: relative;
+            float: right;
+            bottom: 12%;
+            left: -4%;
+        }
+
+        .card1 {
+            position: absolute;
+            float: right;
+            height: 100px;
+            width: 10px;
+            bottom: 65.6%;
+            right: 44%
+                /* margin-bottom: %; */
+        }
+
+        .card2 {
+            position: absolute;
+            float: right;
+            height: 100px;
+            width: 10px;
+            bottom: 49%;
+            right: 20.4%
+                /* margin-bottom: %; */
+        }
+
+        .card3 {
+            position: absolute;
+            float: right;
+            height: 100px;
+            width: 10px;
+            bottom: 35%;
+            right: 40%
+                /* margin-bottom: %; */
+        }
+
+        .holder {
+            background-color: #FFFFFF;
+            padding: 30px 10px;
+            margin: 50px 180px;
+            height: 50%;
+            width: 70%;
+
+            /* padding: 0.5rem; */
+        }
+
+        .content-holder {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .select-group {
+            display: flex;
+            justify-content: space-around;
+            font-family: "Poppins", serif;
+
+        }
+
+        .option {
+            font-size: 16px;
+            margin: 0 25px 0 25px;
+        }
+
+        .label {
+            font-weight: 500;
+            color: #222222;
+        }
+
+        .sub-lable {
+            font-size: 0.8rem;
+            color: #666666;
+        }
+
+        .butt {
+            font-family: "Poppins", serif;
+            font-weight: 600;
+            font-style: normal;
+            background-color: #FA7436;
+            border: none;
+            color: white;
+            padding: 7px 17px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 3px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        .parent2 {
+            position: absolute;
+            display: inline;
+            text-align: center;
+            top: 120%;
+            width: 40%;
+            right: 0% 0%;
+            margin: 0% 23%;
+        }
+
+        .list {
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 2.5rem;
+        }
+
+        .small-cont {
+
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            color: #666666;
+        }
+
+        .duo-plane {
+            padding: 0% -10%;
+            display: flex;
+            float: right;
+        }
+
+        .container1 {
+            display: flex;
+
+        }
+
+        .symbol1 {
+            display: inline;
+            width: 350px;
+            border: 1px;
+            padding: 20px;
+            margin: 190px 30px;
+            height: 50%;
+            background-color: #FFFFFF;
+        }
+
+        .symbol2 {
+            display: inline-block;
+            width: 350px;
+            border: 1px;
+            padding: 20px;
+            margin: 190px 30px;
+            height: 90%;
+            background-color: #FFFFFF;
+        }
+
+        .symbol3 {
+            display: inline-block;
+            width: 350px;
+            border: 1px;
+            padding: 20px;
+            margin: 190px 30px;
+            height: 90%;
+            background-color: #FFFFFF;
+        }
+
+        .sign-up {
+            font-family: "Poppins", serif;
+            font-weight: 600;
+            color: #222222;
+        }
+
+        .inside-cont {
+            font-family: "Poppins", serif;
+            font-weight: 10px;
+            font-style: normal;
+            color: #666666;
+        }
+
+        .secont-topic {
+            position: absolute;
+            display: inline;
+            text-align: center;
+            top: 190%;
+            width: 40%;
+            right: 10%;
+            margin: 0% 23%;
+
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .end-to-end {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mother-area {
+            display: flex;
+            background-color: #FEFCFB;
+            /* position: absolute; */
+            display: inline;
+            /* text-align: center; */
+            top: 120%;
+            width: 0%;
+            /* right: 0% 0%; */
+            margin: 0% -9%;
+            cursor: pointer;
+        }
+
+        .area1 {
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 18px;
+            margin: 190px 20px;
+            height: 90%;
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+        }
+
+        .area2 {
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 18px;
+            margin: 190px 20px;
+            height: 90%;
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+        }
+
+        .area3 {
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 20px;
+            margin: 190px 20px;
+            height: 90%;
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+        }
+
+        .area4 {
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 20px;
+            margin: 0px 0px;
+            height: 90%;
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+        }
+
+        .span {
+            display: flex;
+            margin: 0px 10px;
+            margin: 0px 0px 0px 10px;
+        }
+
+        .span-value {
+            float: right;
+
+            /* display: flex; */
+            /* justify-content: space-between; */
+        }
+
+        .btn1-2 {
+            display: flex;
+            position: absolute;
+            padding: 0% 0% 40% 30%;
+            cursor: pointer;
+            margin: -5% 0px;
+        }
+
+        .btn-aero {
+            display: inline;
+            padding: 0% 0% 0% 15%;
+            margin: 0% 10%;
+            align-items: center;
+        }
+
+        .third-topic {
+            position: absolute;
+            /* display: inline; */
+            text-align: center;
+            top: 305%;
+            width: 40%;
+            right: 8%;
+            margin: 0% 23%;
+        }
+
+        .coco-tree {
+            float: right;
+            position: relative;
+            margin: 0% -5% 0% 0%;
+        }
+
+
+
+        .japan {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .column {
+            display: inline;
+            width: 350px;
+            border: 1px;
+            padding: 10px;
+            margin: 300px 80px;
+            /* height: 50%; */
+            background-color: #FFFFFF;
+        }
+
+        .btn1-22 {
+            display: flex;
+            position: absolute;
+            padding: 0% 0% 45% 60%;
+            cursor: pointer;
+            margin: 0% 80% 0px;
+        }
+
+        .mike-page {
+            position: absolute;
+            display: inline;
+            text-align: left;
+            top: 420%;
+            width: 25%;
+            right: 20% 0%;
+            margin: 0% 0%;
+        }
+
+        .mike-sub {
+            float: left;
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 2.5rem;
+        }
+
+        .mike-sub2 {
+
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            padding: 3% 0% 0% 5%;
+            width: 300%;
+            margin: 0% -5%;
+            font-style: normal;
+            font-size: 1.0rem;
+            color: #666666;
+        }
+
+        .btn-aero1 {
+            display: inline;
+            padding: 0% 0% 0% 5%;
+            margin: 0% 0%;
+            align-items: center;
+        }
+
+        .btn1-23 {
+            padding: 5% 0% 0% 5%;
+            margin: 0% -10%;
+        }
+
+        .mike-right {
+            display: inline;
+            float: right;
+            width: 310px;
+            height: 170px;
+            padding: 1px;
+            background-color: #FFFFFF;
+            color: #444444;
+            box-shadow: 10px 10px 5px 12px #727272;
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            font-size: small;
+            padding: 5% 0% 0% 1%;
+            margin: 8% -150%;
+        }
+
+        .venky-img {
+            padding: 5% 0% 0% 5%;
+            margin: -65% -22%;
+        }
+
+        .mike-style {
+            font-family: "Poppins", serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .plane3 {
+            position: absolute;
+            padding: 5% 0% 0% 5%;
+            margin: -35% 80%;
+        }
+
+        .header-update {
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 2.5rem;
+            /* align-items: center; */
+            padding: 15% 0% 0% 25%;
+            margin: 0% 0%;
+        }
+
+        .image-contain {
+            display: flex;
+
+        }
+
+        .get1-cont {
+            top: 20%;
+            width: 300px;
+            height: 400px;
+            padding: 0% 0% 0% 25%;
+            margin: 0% 0%;
+            padding: 8px;
+            background-color: rgb(253, 253, 253);
+            color: #222222;
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            font-style: normal;
+            /* box-shadow: 10px 10px 5px 12px lightblue; */
+
+        }
+
+        .dot-img {
+            padding: 5% 0% 0% 0%;
+            margin: 0% 43%;
+        }
+
+        .final {
+            width: 900px;
+            height: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            padding: 0% 0% 0% 0%;
+            margin: 0% 13%;
+            background-color: #FA7436;
+            /* box-shadow: 10px 10px 5px 12px lightblue; */
+        }
+
+        .conto {
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #FFFFFF;
+            font-size: 2rem;
+            padding: 5% 0% 0% 28%;
+        }
+
+        .deals-o {
+            margin: 10px 80px;
+        }
+
+        .coco-lub {
+            float: right;
+            position: absolute;
+            margin: 10px 500px;
+            border-color: #ffffff;
+        }
+
+        .coco-lub2 {
+            float: right;
+            position: absolute;
+            margin: -15px 550px;
+            border-color: #ffffff;
+        }
+
+        .lable-mail {
+            position: relative;
+            padding: 0.7% 0% 0% 0%;
+            width: 450px;
+            height: 50px;
+            /* border: 1px solid blue; */
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        .round-img {
+            position: relative;
+            padding: 0.7% 0% 0% 0%;
+            margin: -55px 0px;
+
+        }
+
+        .sub-but {
+            float: right;
+            font-family: "Poppins", serif;
+            margin: 10px 90px;
+            font-weight: 300;
+            font-style: normal;
+            background-color: #FA7436;
+            /* border: none; */
+            color: white;
+            padding: 0px 10px;
+            /* text-align: center; */
+            text-decoration: none;
+            /* display: flex; */
+            font-size: 16px;
+            margin: 6px 70px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .tra-header {
+            font-family: "Volkhov", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .sec-header {
+            font-family: "Poppins", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .final-box1 {
+            /* display: ; */
+            padding: 20% 0% 0% 0%;
+            margin: -55px 0px;
+        }
+
+        .final-box2 {
+            /* display: ; */
+            padding: 20% 0% 0% 0%;
+            margin: -55px 50px 0px 400px;
+        }
+
+        .final-box3 {
+            /* display: ; */
+            padding: 20% 0% 0% 0%;
+            margin: -55px 50px;
+        }
+
+        .final-box4 {
+            /* display: ; */
+            padding: 20% 0% 0% 0%;
+            margin: -55px 50px;
+        }
+
+        .final-box-head {
+            display: flex;
+        }
+
+        .footer-end {
+            display: flex;
+            justify-content: space-between;
+            padding: 20% 20% 0% 0%;
+            /* margin: 600px -1200px; */
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .end-cont1{
+            padding: 20% 60% 0% 0%;
+            margin: 600px -1200px;
+        }
+
+        .end-cont2{
+            padding: 20% 50% 0% 0%;
+            margin: 600px -80px 0px 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <nav>
+            <div class="parent">
+                <div class="trabook">Trabook&nbsp;&nbsp;<img class="img-vector" src="Vector.png"></img></div>
+                <div class="middle-header">
+                    <div class="mid-hed">Home</div>
+                    <div class="mid-hed">About</div>
+                    <div class="mid-hed">Destination</div>
+                    <div class="mid-hed">Tour</div>
+                    <div class="mid-hed">Blog</div>
+                </div>
+                <div class="final-bar">
+                    <div class="final-log">Login</div>
+                    <div class="final-sign">Signup</div>
+                </div>
+            </div>
+            <nav>
+    </head>
+    <div class="parent1">
+        <div class="content">
+            <div class="get-start" style="width:63%;">Get started your exciting <span
+                    style="color: #FA7436;">journey</span>
+                with us.</div>
+            <br>
+            <div class="a-team">
+                <p class="a-team" style="width:40%;">A Team of experienced torism professionals will provide you with
+                    the best advice
+                    and tips for your desire place.</p>
+            </div>
+            <br><br>
+            <div><button class="disco-now">Discover Now</button><br></div>
+        </div>
+        <div class="images-top">
+            <div class="plane-top"><img src="aeroplane.png" width="700" height="180"></div>
+            <div class="boy-ontop"><img src="top.png" height="450"></div>
+            <div class="card1"><img src="Card-1.png"></div>
+            <div class="card2"><img src="Card-2.png" height="120"></div>
+            <div class="card3"><img src="Card-3.png" height="120"></div>
+        </div>
+    </div>
+
+    <div class="holder">
+        <div class="content-holder">
+            <div class="select-group">
+                <div class="option location">
+                    <div class="label">Location&nbsp;&nbsp;<span><svg width="12" height="8" viewBox="0 0 12 8"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L6 6.5L11 1.5" stroke="#FA7436" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></span></div>
+                    <div class="sub-lable">Where are you going</div>
+
+                </div>
+                <div class="option date">
+                    <div class="label">Date&nbsp;&nbsp;<span><svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L6 6.5L11 1.5" stroke="#FA7436" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></span></div>
+                    <div class="sub-lable">When will you go</div>
+                </div>
+                <div class="option guest">
+                    <div class="label">Guest&nbsp;&nbsp;<span><svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L6 6.5L11 1.5" stroke="#FA7436" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></span></div>
+                    <div class="sub-lable">Number of guest</div>
+                </div>
+
+            </div>
+            <div class="button-holder">
+                <button class="butt">Explore Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="parent2">
+
+        <div class="duo-plane">
+            <img src="duoplane.png">
+        </div>
+        <div class="list">Things you need <span style="color: #FA7436;">to do </span></div><br>
+
+        <div class="small-cont">We ensure that you'll embark on a perfectly planned, safe vacation at a price you
+            can afford</div>
+
+    </div>
+    <div class="container1">
+        <div class="symbol1">
+            <div><img src="Signup.png"></div><br>
+            <div class="sign-up">
+                <div>SignUp</div>
+            </div>
+            <div class="inside-cont">
+                <div>Completes all the work associated with planning and processing</div>
+            </div>
+        </div>
+
+        <div class="symbol2">
+            <div><img src="Worth.png"></div><br>
+            <div class="sign-up">
+                <div>Worth of Money</div>
+            </div>
+            <div class="inside-cont">
+                <div>After successful access then book from exclusive deals & pricing</div>
+            </div>
+        </div>
+
+        <div class="symbol3">
+            <div><img src="Travel.png"></div><br>
+            <div class="sign-up">
+                <div>Exciting Travel</div>
+            </div>
+            <div class="inside-cont">
+                <div>Start and explore a wide range of exiting travel experiance.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------- -->
+
+    <div class="secont-topic">
+        <div class="list">Exclusive&nbsp;&nbsp;<span style="color: #FA7436;">deals & discounts </span></div><br>
+
+        <div class="small-cont">Discover our fantastic early booking discounts <br>& start planing your journey.</div>
+    </div>
+
+    <div class="mother-area">
+        <div class="area1">
+            <div><img src="madurai.png"></div><br>
+            <div class="sign-up end-to-end">
+                <div>Madrid</div>
+                <div><span class="fa fa-star checked"></span>4.8</div>
+            </div>
+            <div class="span">
+                <div><img
+                        src="span.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="span-value"><s style="color: #999999;"><b>$950</b></s>&nbsp;&nbsp;</div>
+                <div class="span-value">
+                    <p style="color: #FA7436; background-color: #FFE7DB; width: 40px;"><b>$850</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="area2">
+            <div><img src="firenzeimg.png"></div><br>
+            <div class="sign-up end-to-end">
+                <div>Fireze</div>
+                <div><span class="fa fa-star checked"></span>4.5</div>
+            </div>
+            <div class="span">
+                <div><img
+                        src="italy.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="span-value"><s style="color: #999999;"><b>$850</b></s>&nbsp;&nbsp;</div>
+                <div class="span-value">
+                    <p style="color: #FA7436; background-color: #FFE7DB; width: 40px;"><b>$750</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="area3">
+            <div><img src="paris.png"></div><br>
+            <div class="sign-up end-to-end">
+                <div>Paris</div>
+                <div><span class="fa fa-star checked"></span>4.4</div>
+            </div>
+            <div class="span">
+                <div><img
+                        src="france.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="span-value"><s style="color: #999999;"><b>$699</b></s>&nbsp;&nbsp;</div>
+                <div class="span-value">
+                    <p style="color: #FA7436; background-color: #FFE7DB; width: 40px;"><b>$599</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="area4">
+            <div><img src="london.png"></div><br>
+            <div class="sign-up end-to-end">
+                <div>London</div>
+                <div><span class="fa fa-star checked"></span>4.8</div>
+            </div>
+            <div class="span">
+                <div><img
+                        src="unitedk.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="span-value"><s style="color: #999999;"><b>$850</b></s>&nbsp;&nbsp;</div>
+                <div class="span-value">
+                    <p style="color: #FA7436; background-color: #FFE7DB; width: 40px;"><b>$850</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="btn1-2">
+            <div class="btn-aero"><img src="Btn-1.png"></div>
+            <div class="btn-aero"><img src="Btn-2.png"></div>
+        </div>
+
+
+        <div class="third-topic">
+            <div class="coco-tree"><img src="coco-tree.png"></div>
+            <div class="list">Best&nbsp;&nbsp;<span style="color: #FA7436;">vacation plan</span></div><br>
+
+            <div class="small-cont">Plan your perfect vacation with our travel agency. Choose <br>among hundreds of
+                all-inclusive offers!</div>
+        </div>
+
+
+        <div class="japan">
+            <div class="column"><img src="romenew1.png"></div>
+            <div class="column"><img src="londonew1.png"></div>
+            <div class="column"><img src="osakanew1.png"></div>
+            <div class="btn1-22">
+                <div class="btn-aero"><img src="Btn-1.png"></div>
+                <div class="btn-aero"><img src="Btn-2.png"></div>
+            </div>
+        </div>
+
+        <!-- ---------------Next---------------- -->
+
+        <div class="mike-page">
+            <div class="mike-sub">
+                <div>What people say <span style="color: #FA7436;">about us.</span></div>
+                <div class="mike-sub2">Our clients send us bunch of smilies with our service <br>and we love them.</div>
+                <div class="btn1-23">
+                    <div class="btn-aero1"><img src="Btn-1.png"></div>
+                    <div class="btn-aero1"><img src="Btn-2.png"></div>
+                </div>
+            </div>
+
+            <div class="mike-right">
+                <div class="plane3"><img src="planes3.png" alt=""></div>
+                <div>
+                    "On the Windows talking painted pasture yet its expressparties use. Sure last upon he same as knew
+                    next. Of believed or diverted on."
+                </div><br>
+                <div>
+                    <span class="mike-style">Mike taylor</span> <br>
+                    Lahore, Pakistan
+                </div>
+                <div class="venky-img"><img src="venky.png"></div>
+            </div>
+        </div>
+
+        <div class="header-update">
+            Get update with <span style="color: #FA7436;">latest blog<span>
+        </div><br><br><br><br><br>
+
+
+        <div class="image-contain">
+            <div class="get1-cont">
+                <div><img src="get-1.png" alt=""></div>
+                <div>The Amazing Difference a</div>
+                <div>Year of Traveling.</div><br>
+                <div style="color: #999999;">July 27, 2021</div>
+            </div>
+
+            <div class="get1-cont">
+                <div><img src="get-2.png" alt=""></div>
+                <div>Travel for enough, you</div>
+                <div>Meet yourself.</div><br>
+                <div style="color: #999999;">July 27, 2021</div>
+            </div>
+
+            <div class="get1-cont">
+                <div><img src="get-3.png" alt=""></div>
+                <div>How to save money while</div>
+                <div>Visiting Africa.</div><br>
+                <div style="color: #999999;">July 27, 2021</div>
+            </div>
+
+            <div class="get1-cont">
+                <div><img src="get4.png" alt=""></div>
+                <div>Reflextions on 5 Months of</div>
+                <div>Travel: Time to Hang</div><br>
+                <div style="color: #999999;">July 27, 2021</div>
+            </div>
+        </div>
+
+        <div class="dot-img">
+            <div><img src="dot3.png" alt=""></div>
+        </div><br><br><br><br><br>
+
+        <div class="final">
+            <div class="conto">
+                <div class="coco-lub">
+                    <div><img src="coco1.png"></div>
+                </div>
+                <div class="coco-lub2">
+                    <div><img src="coco1.png"></div>
+                </div>
+                <div>Subscribe and get exclusive</div>
+                <div class="deals-o">deals and offers</div><br>
+
+                <div class="lable-mail">
+                    <div class="mail1"><img src="Mail.png" alt="">
+                        <p class="sub-but">Subscribe</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="round-img">
+                <div><img src="round1.png" width="374px" height="300px"></div>
+            </div>
+        </div>
+
+        <div class="final-box-head">
+
+            <div class="final-box1">
+                <div class="tra-header">Trabook&nbsp;&nbsp;<span></span><img class="img-vector"
+                        src="Vector.png"></img></span></div>
+                <div class="sec-header"><br>
+                    <div>Book your trip in minute, get full</div>
+                    <div>Control for much longer.</div>
+                </div><br>
+                <div><img src="Social.png"></div>
+            </div>
+
+
+            <div class="final-box2">
+                <div class="tra-header">Company</div><br>
+                <div class="sec-header">About<br><br>
+                    <div class="sec-header">careers</div><br>
+                    <div class="sec-header">Logistic</div><br>
+                    <div class="sec-header">Privacy & Policy</div><br>
+                </div>
+            </div>
+
+            <div class="final-box3">
+                <div class="tra-header">Contact</div><br>
+                <div class="sec-header">Help/FAQ<br><br>
+                    <div class="sec-header">Press</div><br>
+                    <div class="sec-header">Affilates</div><br>
+                </div>
+
+            </div>
+
+            <div class="final-box4">
+                <div class="tra-header">More</div><br>
+                <div class="sec-header">Press Centre<br><br>
+                    <div class="sec-header">Our Blog</div><br>
+                    <div class="sec-header">Low fare tips</div><br>
+                </div>
+            </div>
+            <div>
+
+
+                <hr>
+                <div class="footer-end">
+
+                    <div class="end-cont1">Copyright Trabook 2022. All rights recerived.</div>
+                    <div class="end-cont2">Terms & Conditions</div>
+                </div>
+
+</body>
+
+</html>
